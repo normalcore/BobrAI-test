@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node bot.js && server.js"
+    "start": "node server.js & node bot.js"
   },
   "author": "normalcore",
   "license": "ISC",
