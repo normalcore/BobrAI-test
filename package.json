@@ -4,16 +4,23 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "startDev": "nodemon server.js"
+    "start": "node bot.js && server.js"
   },
   "author": "normalcore",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "mongoose": "^8.7.1",
+    "sqlite3": "^5.1.7",
+    "swagger-ui-express": "^5.0.1",
     "telenode-js": "^1.5.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "chai": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.7",
+    "sinon": "^19.0.2"
   }
 }
