@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "startDev": "nodemon server.js"
+  },
+  "author": "normalcore",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "telenode-js": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
